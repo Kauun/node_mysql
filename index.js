@@ -30,7 +30,7 @@ const conn = mysql.createConnection({
     user: "root",
     password: "root",
     database: "nodemysql",
-    port: 3307
+    port: 3306
 })
 
 conn.connect((error) => {
